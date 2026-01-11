@@ -33,7 +33,7 @@ abund_data <- data %>%
   )
 
 site_meta <- readr::read_csv(
-  "WCB_meta_Griffiths_et_al_w_sunangle.csv"
+  "WCB_meta_Griffiths_et_al.csv"
 )
 
 site_keys <- site_meta %>%
@@ -941,3 +941,4 @@ table1 <- by_area %>%
   arrange(`Survey season`)
 
 # write.csv(table1, "Final Figures/Griffiths_et_al_table1.csv")
+
